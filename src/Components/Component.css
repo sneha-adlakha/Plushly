@@ -344,7 +344,7 @@
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
   background-color: black;
   color: #f50057;
   text-align: center;
@@ -358,6 +358,12 @@
   font-size: 0.8rem;
   color: white;
 }
+.overlay-container {
+  position: relative;
+  width: 250px;
+  height: auto;
+}
+
 @media (min-width: 728px) {
   .container-cards {
     display: grid;
@@ -373,6 +379,11 @@
     width: 90%;
     margin: auto;
     margin-left: 10rem;
+  }
+  .overlay-container {
+    position: relative;
+    width: 400px;
+    height: auto;
   }
   .container-home {
     display: grid;

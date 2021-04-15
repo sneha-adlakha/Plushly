@@ -66,9 +66,9 @@
     justify-content: space-between;
   }
   .badge-i {
-    background-color: white;
+    background-color: pink;
     color: #f50057;
-    font-size: 0.5rem;
+    font-size: 0.6rem;
   }
   .m-lr {
     margin-right: 1.5rem;
@@ -89,7 +89,7 @@
   }
 
   .badge-icon-container {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding: 0;
     margin: 6px;
     padding-right: 0.5rem;
