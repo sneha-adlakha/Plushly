@@ -1,0 +1,100 @@
+.m-lr {
+  margin-left: 0.5rem;
+  margin-right: 2.5rem;
+}
+
+.navContainer {
+  padding: 0.2rem;
+  max-height: 3.5rem;
+  position: fixed;
+  background-color: black;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color: pink;
+}
+.link-style {
+  text-decoration: none;
+  color: #f50057;
+}
+.badge-icon-container {
+  font-size: 2rem;
+  padding: 0;
+  margin: 6px;
+  padding-right: 0.5rem;
+}
+.nav-left {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0.2rem;
+  font-size: 1rem;
+}
+.nav-right {
+  display: flex;
+  margin: 0.5rem;
+  align-content: center;
+  justify-content: space-between;
+  align-content: center;
+}
+.mr-small {
+  margin-right: 0.5rem;
+}
+.badge-i {
+  background-color: pink;
+  color: #f50057;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .navContainer {
+    padding: 0.2rem;
+    max-height: 2.5rem;
+    position: fixed;
+    background-color: black;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  .badge-i {
+    background-color: white;
+    color: #f50057;
+    font-size: 0.5rem;
+  }
+  .m-lr {
+    margin-right: 1.5rem;
+  }
+  .nav-left {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0.2rem;
+    font-size: 1rem;
+  }
+  .nav-right {
+    display: flex;
+    margin: 0.2rem;
+    align-content: center;
+    justify-content: space-between;
+    align-content: center;
+  }
+
+  .badge-icon-container {
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 6px;
+    padding-right: 0.5rem;
+  }
+  .logotitle {
+    padding-left: 0;
+  }
+}

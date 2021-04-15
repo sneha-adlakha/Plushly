@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Cinzel:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url(https://plush-ui.netlify.app/plush-ui.css);
+@import "./Components/Navigation.css";
+:root {
+  --primary-color: #f50057;
+  --second-color: #fca5a5;
+  --off-white: #fad4d4;
+}
+body {
+  margin: 0;
+  background: white;
+  font-family: "Acme", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.body-hide-scroll {
+  overflow: hidden;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.toast-container {
+  min-height: 2.5rem;
+}
+
+.flex-col {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.flex--center {
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.position-rel {
+  position: relative;
+}
+
+.p-small {
+  padding: 0.5rem;
+}
+.p-medium {
+  padding: 1rem;
+}
+.p-large {
+  padding: 2rem;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.ml-small {
+  margin-left: 0.5rem;
+}
+.mr-1 {
+  margin-right: 1rem;
+}
+
+.mr-small {
+  margin-right: 0.5rem;
+}
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-small {
+  margin-top: 0.5rem;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mt-small {
+  margin-bottom: 0.5rem;
+}
